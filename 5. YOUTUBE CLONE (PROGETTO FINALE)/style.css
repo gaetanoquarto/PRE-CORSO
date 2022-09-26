@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    display: flex;
+    margin: 0;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+#main {
+    width: 100%;
+}
+
+#content {
+    height: 100%;
+}
+
+#sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebar-icon {
+    padding: 1em 0.5em 2.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+.sidebar-icon p {
+    margin: 0;
+}
+
+.sidebar-icon ion-icon {
+    font-size: 1.5em;
+}
+
+#topbar {
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    height: 50%;
+}
+
+#search-wrapper {
+    display: flex;
+    height: 50%;
+}
+
+#topbar-icons {
+    display: flex;
+    cursor: pointer;
+}
+
+.topbar-icon ion-icon {
+    font-size: 2em;
+    padding: 0 0.3em;
+}
+
+#search-btn {
+    padding: 0 0.6em;
+    font-size: 0.9em;
+    display: flex;
+    align-items: center;
+}
+
+#mic-icon ion-icon {
+    font-size: 1.4em;
+    cursor: pointer;
+}
+
+#mic-icon {
+    margin: 0 0.6em;
+    display: flex;
+    align-items: center;
+}
+
+#search-wrapper input {
+    width: 250px;
+}
+
+#preview {
+    height: 15em;
+    width: 25em;
+}
+
+#channel-logo {
+    height: 3em;
+    width: 3em;
+    margin: 0.5em 0 0;
+}
+
+#thumbnail {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+#content {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 2em;
+}
+
+.thumbnail-title {
+    display: flex;
+}
+
+.thumbnail-description {
+    display: flex;
+    flex-direction: column;
+    margin: 0 1em;
+}
+
+.thumbnail-description h1 {
+    margin: 0.5em 0 0 0;
+    font-size: 1.2em;
+}
+
+.thumbnail-description p {
+    margin: 0;
+    font-size: 0.9em;
+}

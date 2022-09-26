@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;400;700&display=swap');
+
+table {
+border-collapse:collapse
+}
+
+td, th {
+border:1px solid #ddd;
+padding:8px;
+}
+
+.topbar img {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.topbar h1 {
+    text-align: center;
+}
+
+body {
+    font-family: 'Jost', sans-serif;
+}
+
+.footer {
+    background-color: black;
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-around;
+}
+
+.hobbies {
+    display: block;
+}
+
+.interessi {
+    display: block;
+}
+
+.list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.list ul {
+    padding: 0;
+    text-align: center;
+}
+
+.title {
+    color: red;
+    font-weight: bold;
+}
+
+table {
+    display: block;
+}
+
+.table {
+    display: flex;
+    margin: 2em;
+    justify-content: space-between;
+}
+
+.contacts {
+    display: block;
+    margin: 1em;
+}
+
+.social {
+    display: block;
+    margin: 1em;
+}
+
+.footer ul {
+    text-align: center;
+    padding: 0;
+}
+
+.footer li {
+    list-style-type: none;
+}
+
+.hobbies ul {
+    font-weight: bold;
+}
+
+.interessi ul {
+    font-weight: bold;
+}

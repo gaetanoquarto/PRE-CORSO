@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrati - Epicfy</title>
+</head>
+<body>
+    <h1 style="text-align: center;">Iscriviti gratuitamente per iniziare ad ascoltare musica in Streaming!</h1>
+    <form onsubmit="alert('Registrazione effettuata con successo! Benvenuto su Epicfy!')">
+        <p>Qual è il tuo nome?</p>
+        <input type="text" placeholder="Inserisci qui il tuo nome." />
+        <p>Qual è il tuo cognome?</p>
+        <input type="text" placeholder="Inserisci qui il tuo cognome." />
+        <p>Qual è il tuo indirizzo email?</p>
+        <input type="text" placeholder="Inserisci qui la tua email." />
+        <p>Quando sei nato?</p>
+        <input type="date" />
+        <p>Qual è il tuo numero di telefono?</p>
+        <input type="number" placeholder="Inserisci qui il tuo numero di telefono." />
+        <p>Seleziona i tuoi generi musicali preferiti!</p>
+        <input type="checkbox" id="music1" name="music1" value="Hip Hop" />
+        <label for="music1">Hip Hop</label>
+        <input type="checkbox" id="music2" name="music2" value="Pop" />
+        <label for="music2">Pop</label>
+        <input type="checkbox" id="music3" name="music3" value="Dance" />
+        <label for="music3">Dance</label>
+        <input type="checkbox" id="music4" name="music4" value="Classica" />
+        <label for="music4">Classica</label>
+        <input type="checkbox" id="music5" name="music5" value="Jazz" />
+        <label for="music5">Jazz</label>
+        <p>Accetti i termini e le condizioni d'uso?</p>
+        <input type="radio" id="accetto" name="termini_condizioni" value="accetto">
+        <label for="accetto">Accetto</label>
+        <input type="radio" id="rifiuto" name="termini_condizioni" value="rifiuto">
+        <label for="rifiuto">Rifiuto</label><br>
+        <button type="submit">Registrati</button>
+    </form>
+</body>
+</html>
